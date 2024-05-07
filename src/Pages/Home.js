@@ -23,11 +23,11 @@ const HomePage = () => {
       <Container maxW="container.xl" py="16">
         <Box textAlign="center">
           <Image src="/logo.png" alt="Logo" maxW="200px" mb="8" />
-          <Heading as="h1" size="xl" mb="4">
+          <Heading as="h1" size="xl" mb="4" color={'blue.500'}>
             Welcome to Your Website
           </Heading>
-          <TypewriterText/>
-          <Text fontSize="lg" mb="8">
+          {/* <TypewriterText/> */}
+          <Text fontSize="lg" mb="8" color={'blue.500'}>
             Discover amazing things with us!
           </Text>
           <Button colorScheme="blue" size="lg" mr="4">
